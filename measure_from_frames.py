@@ -5,7 +5,7 @@ import os
 import math
 
 # --- Configuration ---
-SQUARE_SIZE_MM = 8.0   # Size of a single square in mm
+SQUARE_SIZE_MM = 10.0   # Size of a single square in mm
 MIN_OBJECT_AREA = 5000 # Ignore tiny checkerboard glitches, focus on Large Arduino-sized objects
 INPUT_DIR = "frames"
 OUTPUT_DIR = "measured_frames"

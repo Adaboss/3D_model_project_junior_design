@@ -23,7 +23,7 @@ if __name__ == '__main__':
     cap = None
     try:
         # A standard bare NEMA 17 is 200 full-steps per revolution.
-        steps_per_rev = 200 
+        steps_per_rev = 400 
         
         # CRITICAL MATH FIX: We changed 60 frames to 50 frames!
         # 200 steps / 60 frames = 3.333 steps (Uneven jittering)
